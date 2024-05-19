@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Foto dan Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>🐨</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#greeting">Greeting</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <div class="user-profile">
+                    <img src="images/profile.jpg" alt="User Profile">
+                    <span>Gung Tiee From Your Koalaa</span>
+                </div>
+            </header>
+
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#greeting">Greeting</a></li>
+                </ul>
+            </nav>
+
+            <section id="home" class="greeting">
+                <h1>Happy Birthday!</h1>
+                <p>"Tetaplah seperti bintang yang bersinar, Gung Tiee! Selamat ulang tahun yang penuh dengan semangat dan kebahagiaan. Semoga tahun ini menjadi awal dari petualangan yang luar biasa. Mari terus mengejar impian dan menginspirasi orang lain dengan semangatmu yang tak pernah padam.
+
+                    Semoga pada tahun 2024 ini, semua impianmu termasuk perjalanan ke Menjangan, Thailand, Vietnam, dan Amed terwujud. Biarkan setiap langkahmu membawa kesenangan dan keajaiban. Ingatlah, saat kita berani bermimpi, dunia pun akan memberikan yang terbaik untuk kita.
+                    
+                    Teruslah menjelajahi keindahan dunia dan mengumpulkan kenangan yang tak terlupakan. Selamat merayakan hari spesialmu, dan semoga setiap tahun membawa lebih banyak petualangan, cinta, dan kebahagiaan. Selamat ulang tahun, Gung Tiee!" 🐨🎉
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </p>
+            </section>
+
+            <section id="photos" class="album-section">
+                <h2>Photo Album</h2>
+                <div class="album-gallery">
+                    <div class="album-item">
+                        <img src="images/photo1.jpg" alt="Photo 1">
+                        <p>Tetaplah Menjadi Gung Tiee Yang Full Of Joy 🤩🐨</p>
+                    </div>
+                    <div class="album-item">
+                        <img src="images/photo2.jpg" alt="Photo 2">
+                        <p>You Look Stunning, keep growing up with all the happiness that surrounding you!!! </p>
+                    </div>
+                    <div class="album-item">
+                        <img src="images/photo3.jpg" alt="Photo 3">
+                        <p>Wishh You the Happiest Birthdayy😍😍😉😉</p>
+                    </div>
+                    <div class="album-item">
+                        <img src="images/photo4.jpg" alt="Photo 4">
+                        <p>Tetap enjoy every moment that you grown up.....keep ilmu padi abangkuh🐨🐨🐨</p>
+                    </div>    
+                </div>
+            </section>
+
+            <section id="videos" class="album-section">
+                <h2>Video Album</h2>
+                <div class="album-gallery">
+                    <div class="album-item">
+                        <video id="myVideo1" controls>
+                            <source src="videos/video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p>Senyumm setiap hariii jangan ada kata sedih, don't listen to other's</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        
+        <aside class="now-playing">
+            <h2>Now Playing</h2>
+            <div class="playing-item">
+                <img src="images/photo1.jpg" alt="Now Playing">
+            </div>
+        </aside>
+    </div>
+    <div id="balloon-container"></div> <!-- Container untuk pop-up balloon -->
+    <script src="autoplay.js"></script>
+    <!-- Penambahan tag audio untuk memutar lagu -->
+    <audio autoplay loop>
+        <source src="audio/audio1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Menambahkan referensi ke file JavaScript -->
+    <script src="autoplay.js"></script>
+</body>
+</html>
